@@ -1,0 +1,1001 @@
+@media screen and (min-width:640px) and (max-width:1440px) {
+
+
+  #first-section {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(189, 23, 26);
+    margin-bottom: 10px;
+  }
+
+  .first-section__div__ul {
+    text-align: justify;
+  }
+
+  .first-div__ol {
+    list-style: none
+  }
+
+  .center0 {
+    margin-left: 5%;
+  }
+
+  .center {
+    width: 350px;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 1%;
+  }
+
+  #second_section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-items: flex-start;
+    margin: 1%;
+  }
+
+  .second_section_items {
+    margin: 1%;
+  }
+
+  .points {
+    -webkit-text-security: disc;
+    -moz-text-security: disc;
+
+  }
+
+  .second_section_button {
+    width: 30%;
+    height: 25px;
+  }
+
+
+
+  #third_section {
+    width: 100%;
+    height: 900px;
+  }
+
+  #third_section_table {
+    margin-bottom: 3%;
+    width: 100%;
+    height: 250px;
+
+  }
+
+  #third_section_table2 {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 2%;
+
+  }
+
+  #third_section_table3 {
+    width: 100%;
+    height: 400px;
+  }
+
+  td {
+    text-align: center;
+    border: 3px solid rgb(43, 129, 17);
+  }
+
+  th {
+    text-align: center;
+    border: 3px solid rgb(43, 129, 17);
+  }
+
+
+  #four_section {
+    width: 50%;
+    height: 610px;
+  }
+
+  p:nth-child(1) {
+    width: 100%;
+    height: 200px;
+    white-space: normal;
+  }
+
+  p:nth-child(2) {
+    width: 100%;
+    height: 10px;
+    white-space: nowrap;
+  }
+
+  p:nth-child(3) {
+    white-space: preserve nowrap;
+    width: 100%;
+    height: 200px;
+
+  }
+
+  p:nth-child(4) {
+    width: 100%;
+    height: 200px;
+    white-space: break-spaces;
+
+  }
+
+
+  #five_section {
+    width: 100%;
+    height: 500px;
+
+  }
+
+  .items {
+    margin: 1%;
+  }
+
+  .p_section5 {
+    background-color: brown;
+    height: 50px;
+    width: 100%;
+  }
+
+  .div_section5 {
+    background-color: brown;
+    height: 50px;
+  }
+
+  .span_section5 {
+    background-color: brown;
+    height: 50px;
+    width: 150px;
+  }
+
+  .input_section5 {
+    width: 70%;
+  }
+
+  .h3_section5 {
+    height: 50px;
+    background-color: brown;
+  }
+
+  .section_button {
+    height: 50px;
+    width: 150px;
+    background-color: brown;
+    text-align: center;
+  }
+
+  #five_section_div_for_sections {
+    display: flex;
+  }
+
+  .section_section5 {
+    height: 50px;
+    width: 150px;
+    background-color: brown;
+  }
+
+  .section_sectiontwo5 {
+    height: 50px;
+    width: 150px;
+    background-color: brown;
+  }
+
+  #six_section {
+    .container {
+      width: 100%;
+      height: 4000px;
+      margin: 1%;
+    }
+
+    /* 1. Селектор, который выберет абзацы <p> внутри дивов <div> */
+    .container div p {
+      color: rgb(198, 14, 14);
+    }
+
+    /* 0/1/2 */
+    /* 2. Селектор, который выберет все <h2> внутри дивов <div> */
+    .container div h2 {
+      font-style: italic;
+    }
+
+    /* 0/1/2 */
+    /* 3. Селектор, который выберет все абзацы <p> из элемента с id=test */
+    #test p {
+      font-weight: bold;
+      background-color: #c54e1f;
+      width: 100%;
+      height: 50px;
+    }
+
+    /* 1/0/1 */
+    /* 4. Селектор, который выберет все <h2> из элемента с id=test */
+    #test h2 {
+      text-transform: uppercase;
+    }
+
+    /* 1/0/1 */
+    /* 5. Выберите все элементы с классом bbb */
+    .bbb {
+      background-color: lightgray;
+    }
+
+    /* 0/1/0 */
+    /* 6. Выберите все элементы с классом bbb из элемента с id=test */
+    #test.bbb {
+      border: 1px solid black;
+      font-size: 30px;
+    }
+
+    /* 1/1/0 */
+    /* 7. Выберите все абзацы <p> с классом bbb */
+    p.bbb {
+      font-size: 18px;
+    }
+
+    /* 0/1/1 */
+    /* 8. Выберите все <h2> с классом bbb и id=test */
+    h2#test.bbb {
+      color: red;
+    }
+
+    /* 1/1/1 */
+    /* 9. Выберите все абзацы <p> с классом bbb из элемента с id=test */
+    p#test.bbb {
+      text-decoration: underline;
+    }
+
+    /* 1/1/1 */
+    /* 10. Выберите все элементы с классом bbb и элементы с классом xxx одновременно */
+    .bbb,
+    .xxx {
+      color: purple;
+    }
+
+    /* 0/1/0 */
+    /* 11. Выберите все абзацы <p> с классом bbb и <h2> с классом xxx одновременно */
+    p.bbb,
+    h2.xxx {
+      font-style: italic;
+    }
+
+    /* 0/1/1 */
+    /* 12. Выберите все абзацы <p> с классом bbb из id=test и все абзацы <p> с классом xxx из id=test одновременно */
+    p#test.bbb,
+    p#test.xxx {
+      color: green;
+    }
+
+    /* 1/1/1 */
+    /* 13. Выберите все элементы из класса fff */
+    .fff {
+      font-weight: bold;
+    }
+
+    /* 0/1/0 */
+    /* 14. Выберите все абзацы <p> из класса fff */
+    p.fff {
+      font-family: Georgia, serif;
+      color: red;
+    }
+
+    /* 0/1/1 */
+    /* 15. Выберите все абзацы <p> с классом fff */
+    p.fff {
+      font-size: 26px;
+    }
+
+    /* 0/1/1 */
+    /* 16. Выберите все элементы с классом bbb из класса fff */
+    fff .bbb {
+      color: #020a12;
+      font: 1px;
+    }
+
+    /* 0/1/1 */
+    /* 17. Выберите все <h2> с классом bbb из класса fff. */
+    h2.fff.bbb {
+      color: #c54e1f;
+
+    }
+
+    /* 0/2/1 */
+    /* 18.Селектор для всех элементов одного типа(например для всех span) */
+    span {
+      color: #4019ac;
+    }
+
+    /* 0/0/1 */
+    /* 19.Cелектор для элемента с атрибутом date-value='45' */
+    [data-value='45'] {
+      color: aqua;
+    }
+
+    /* 0/1/0 */
+    /* 20.Cелектор для элемента с классом child, который вложен в элемент с классом parent  */
+    .child {
+      color: aquamarine;
+      font-size: 45px;
+      height: 30px;
+    }
+
+    /* 0/1/0 */
+    /* 21.Cелектор для элемента с двумя классами text и active */
+    .text.active {
+      color: blueviolet;
+    }
+
+    /* 0/2/0 */
+    /* 22.Cелектор для второго элемента списка внутри маркированного списка с id=’my-list’  */
+    #my-list :nth-child(2) {
+      color: #c54e1f;
+    }
+
+    /* 1/1/0 */
+    .div_last_3tasks {
+
+      /* 23.Выберите в данном контейнере абзац(p), который идет сразу за h1, другие абзацы при этом не должны быть выбраны, используйте комбинатор.  */
+      h1+p {
+        color: rgb(55, 255, 0);
+      }
+
+      /* 1/0/2 */
+    }
+
+    /* 24.Выберете в данном контейнере все абзацы(p), которые идут после div, используйте комбинатор.  */
+    .div_last_3tasks p {
+      color: #bed31d;
+    }
+
+    /* 0/0/2 */
+    /* 25.Выберете в данном контейнере все элементы кроме img. */
+    .div_last_3tasks :not(img) {
+      border: 1px solid black;
+    }
+
+    /* 0/0/2 */
+
+  }
+
+  #seven_section {
+    background-color: aqua;
+    width: 100%;
+    height: 1000px;
+    top: 821px;
+    left: -1528px;
+  }
+
+  #seven_section_parent_div {
+    width: 100%;
+    height: 550px;
+    position: relative;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  #seven_section_child_div1 {
+    width: 25%;
+    height: 40%;
+    background-color: red;
+    border: 3px solid black;
+    margin: 10px;
+    position: static;
+  }
+
+  #seven_section_child_div2 {
+    width: 25%;
+    height: 40%;
+    background-color: red;
+    border: 3px solid black;
+    margin: 10px;
+    position: static;
+  }
+
+  /* 1)при position: absolute; + top and left = 50px блоки 1 и  2 сольются в 1  
+    2) 2 блок перестал существовать и осталось только название*/
+
+
+  #seven_section_child_div3 {
+    width: 25%;
+    height: 40%;
+    background-color: red;
+    border: 3px solid black;
+    margin: 10px;
+    position: static;
+  }
+
+  #seven_section_child_div4 {
+    width: 25%;
+    height: 40%;
+    background-color: red;
+    border: 3px solid black;
+    margin: 10px;
+    position: static;
+  }
+
+  #seven_section_pictures {
+    height: 400px;
+    width: 1000%;
+    position: absolute;
+  }
+
+  #seven_section_pictures_img1 {
+    position: absolute;
+  }
+
+  #seven_section_pictures_img2 {
+    position: absolute;
+    top: 139px;
+    left: 135px;
+    width: 250px;
+    height: 250px;
+  }
+
+  #seven_section_pictures_img3 {
+    position: absolute;
+    top: 78px;
+    left: 25px;
+    width: 170px;
+    height: 170px;
+
+  }
+
+  #seven_section_pictures_img4 {
+    position: absolute;
+    top: 28px;
+    left: 150px;
+    width: 120px;
+    height: 120px;
+  }
+
+  #seven_section_pictures_img5 {
+    position: absolute;
+    left: 500px;
+    top: 330px;
+    height: 77px;
+    width: 77px;
+  }
+
+  #seven_section_pictures_img6 {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    top: 75px;
+    left: 420px;
+  }
+
+  #seven_section_pictures_img7 {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 118px;
+    top: 303px;
+
+  }
+
+  #seven_section_pictures_img8 {
+    position: absolute;
+    left: 129px;
+    top: 168px;
+    height: 40px;
+    width: 40px;
+  }
+
+  #eight_section {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap
+  }
+
+  #eight_section_div1 {
+    margin: 30px;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    border: 5px solid black;
+    position: static;
+    transform: scale(1);
+  }
+
+  #eight_section_div2 {
+    margin: 30px;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    border: 5px solid black;
+    position: static;
+    transform: scale(0.85)
+  }
+
+  /* nine_secion */
+
+  #nine_section_block_horizontal {
+    width: 150px;
+    height: 90px;
+    color: red;
+    background-color: blue;
+    margin: 10px;
+  }
+
+  #nine_section_block_vertical {
+    width: 100px;
+    background-color: rgb(6, 6, 193);
+    margin-inline: 2%;
+  }
+
+  .small {
+    height: 100px;
+  }
+
+  .middle {
+    height: 125px;
+  }
+
+  .big {
+    height: 150px;
+  }
+
+  #nine_section_scheme_one {
+    background-color: blueviolet;
+    width: 100%;
+    height: 215px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+  }
+
+  #nine_section_scheme_two {
+    background-color: rgb(203, 112, 20);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  #nine_section_scheme_three {
+    background-color: rgb(45, 229, 32);
+    width: 100%;
+    height: 150px;
+    display: flex;
+
+    justify-content: flex-end;
+  }
+
+  #nine_section_scheme_four {
+    background-color: rgb(226, 16, 209);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #nine_section_scheme_five {
+    background-color: rgb(205, 214, 40);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+  }
+
+  #nine_section_scheme_six {
+    background-color: rgb(23, 204, 32);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #nine_section_scheme_seven {
+    background-color: rgb(205, 214, 40);
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  #nine_section_scheme_eight {
+    background-color: rgb(36, 205, 14);
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 1%;
+  }
+
+  #nine_section_scheme_nine {
+    background-color: rgb(205, 214, 40);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1%;
+  }
+
+  #nine_section_scheme_ten {
+    background-color: rgb(58, 235, 18);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    padding: 10px;
+    align-items: stretch;
+    margin-bottom: 1%;
+  }
+
+  #nine_section_scheme_eleven {
+    background-color: rgb(205, 214, 40);
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 1%;
+  }
+
+  /* 10section */
+
+  #ten-section {
+    width: 100%;
+    height: 500px;
+    background-color: brown;
+    text-align: center;
+    margin-bottom: 1%;
+  }
+
+  .header {
+    text-align: center;
+    background-color: aqua;
+    height: 10%
+  }
+
+  .aside {
+    background-color: green;
+    width: 25%;
+  }
+
+  .div_for_main_and_aside {
+    display: flex;
+    justify-content: center;
+    height: 70%;
+  }
+
+  .main {
+    width: 75%;
+  }
+
+  .div {
+    justify-content: space-around;
+    display: flex;
+    margin-bottom: 10px;
+    height: 70%;
+  }
+
+  .div-half-width {
+    background-color: yellow;
+    width: 45%;
+    height: 30%;
+  }
+
+  .div-max-width {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+    height: 20%;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(102, 102, 100);
+    width: 100%;
+    height: 20%;
+  }
+
+  .footer-divs {
+    background-color: aqua;
+    width: 20%;
+    margin: 10px;
+  }
+
+  /* 11 section */
+  /* 1 option */
+
+  #eleven-section .parent {
+    width: 100%;
+    height: 300px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1%;
+  }
+
+  #eleven-section .child {
+    width: 25%;
+    background-color: red;
+    height: 25%;
+  }
+
+  /* 2 option */
+
+  .parent2 {
+    background-color: blue;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    margin-bottom: 1%;
+  }
+
+  .child2 {
+    background-color: rebeccapurple;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* 12 section */
+
+  #twelve_section {
+    width: 100%;
+    height: 500px;
+    background-image: url('/images/Rectangle\ 35.png'), url('/images/Rectangle\ 35.png');
+    background-position: 110% -29%, -16% 137%;
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto;
+    background-color: yellowgreen;
+
+  }
+
+  /* 13 section */
+  #thirdteen-section {
+    background-color: blue;
+    width: 100%;
+    height: 1065px;
+  }
+
+  .thirdteen-section__block {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+  }
+
+  /* во все стороны */
+  .thirdteen-section__block--option1 {
+    padding: 15px;
+    margin: 2%;
+  }
+
+  /* первая цифра - верх\низ , вторая цифра - лево\право */
+  .thirdteen-section__block--option2 {
+    padding: 15px 24px;
+    margin: 2%;
+  }
+
+  /* первая цифра=топ, вторая лефт+райт, третья- боттом */
+  .thirdteen-section__block--option3 {
+    padding: 15px 0 24px;
+    margin: 2%;
+  }
+
+  /* лево верх право низ */
+  .thirdteen-section__block--option4 {
+    padding: 1px 2px 3px 4px;
+    margin: 2%;
+  }
+
+  .thirdteen-section__block--option5 {
+    margin: 4px;
+  }
+
+  .thirdteen-section__block--option6 {
+    margin: 0 auto;
+  }
+
+  .thirdteen-section__block--option7 {
+    margin: 15px 0 24px;
+  }
+
+  .thirdteen-section__block--option8 {
+    margin: 1px 2px 3px 4px;
+  }
+
+  #fourteen-section {
+    width: 100%;
+    height: 800px;
+    background-color: brown;
+    padding: 1%;
+
+  }
+
+  .fourteen-section__grid-container {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+
+  .fourteen-section__grid-container_areas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 'nav header header'
+      'nav main aside'
+      'nav section aside'
+      'nav footer footer';
+    gap: 10px;
+    background-color: #c54e1f;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .fourteen-section__grid-container__grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  .fourteen-section__grid-container__grid-item--item1 {
+    background-color: #bed31d;
+    grid-row: span 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .fourteen-section__grid-container__grid-item--item2 {
+    background-color: #bed31d;
+    grid-column: span 2;
+  }
+
+  .fourteen-section__grid-container__grid-item--item3 {
+    background-color: #bed31d;
+
+  }
+
+  .fourteen-section__grid-container__grid-item--item4 {
+    background-color: #bed31d;
+    grid-row: span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fourteen-section__grid-container__grid-item--item5 {
+    background-color: #bed31d;
+    grid-column: span 1;
+  }
+
+  .fourteen-section__grid-container__grid-item--item6 {
+    background-color: #bed31d;
+    grid-column: span 2;
+  }
+
+  .fourteen-section__grid-container_areas__nav-areas {
+    padding: 25px 0;
+    grid-area: nav;
+    background-color: #2196F3;
+  }
+
+  .fourteen-section__grid-container_areas__header-areas {
+    padding: 25px 0;
+    grid-area: header;
+    background-color: #2196F3;
+  }
+
+  .fourteen-section__grid-container_areas__main-areas {
+    padding: 25px 0;
+    grid-area: main;
+    background-color: #2196F3;
+  }
+
+  .fourteen-section__grid-container_areas__section-areas {
+    padding: 25px 0;
+    grid-area: section;
+    background-color: #2196F3;
+  }
+
+  .fourteen-section__grid-container_areas__aside-areas {
+    padding: 25px 0;
+    grid-area: aside;
+    background-color: #2196F3;
+  }
+
+  .fourteen-section__grid-container_areas__footer-areas {
+    padding: 25px 0;
+    grid-area: footer;
+    background-color: #2196F3;
+
+  }
+
+  /* 15 sections */
+
+  .fifteen-section__grid-container {
+    display: grid;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 150px 150px 150px;
+    gap: 10px;
+    width: 100%;
+    height: 500px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+
+  /* 1 option -оцентровать по горизонтали и вертикали все элементы внутри своих ячеек*/
+  .fifteen-section__grid-container__option-grid-1 {
+
+    justify-items: center;
+    align-items: center;
+  }
+
+  /* 2 случай - оцентровать по горизонтали и вертикали всю grid-сетку внутри ее родителя; */
+  .fifteen-section__grid-container__option-grid-2 {
+    justify-content: center;
+  }
+
+  /* 3 случай - оцентровать по горизонтали и вертикали внутри своей ячейки только один элемент child_5; */
+  .fifteen-section__grid-container__grid-15__child--center {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .fifteen-section__grid-container__grid-15 {
+    background-color: rgba(18, 197, 72, 0.8);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    border: #05111b solid;
+  }
+
+  /* работа с grid-элементами очень похожа на работу с flexbox-элементами, только grid делает упор на макет, а flexbox на дочерние элементы */
+
+
+  .fiveteen-section__flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 600px;
+    background-color: aqua;
+  }
+
+  /* 1 случай - оцентровать линии (row) контейнера по вертикали и горизонтали. */
+  .fiveteen-section__flex-container__celloption1 {
+    background-color: #4019ac;
+    place-content: center;
+  }
+
+  /* 2 случай - передвинуть все элементы в правый нижний угол */
+  .fiveteen-section__flex-container__cell-option2 {
+    place-content: end right;
+  }
+
+  /* 3 случай - передвинуть только элемент child_9 в правый нижний угол */
+  .fiveteen-section__flex-container__cell9--placement {
+    place-self: end right;
+  }
+
+  .fiveteen-section__flex-container__cell {
+    background-color: #c54e1f;
+    width: 25%;
+    height: 20%;
+    margin: 1%;
+    border: #05111b solid;
+  }
+
+  /* элементы flexbox контейнера подчиняются тем же свойствам что и элементы grid-контейнера, но grid-сетка позволяет работать сразу с вертикальной и горизонтальной осью*/
+}
